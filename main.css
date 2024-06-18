@@ -1,0 +1,106 @@
+
+body
+{
+    background-image: url(images/light_dot.jpg);
+}
+.nav-mary
+{
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.search-mary
+{
+   background-color: rgba(2, 59, 109,0.1);
+}
+.blue-color
+{
+    color: #023b6d;
+}
+h1
+{
+    font-size: 32px;
+    font-weight: 600;
+    background: #fff;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+}
+header h1
+{
+    position: relative;
+}
+header h1::after
+{   content: '';
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    left: 50%;
+    top: 100px;
+    background-color:#0d6efd;
+    transform: translateX(-50%);
+}
+section h1
+{
+    position: relative;
+}
+section h1::after
+{   content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #0d6efd;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 1.2;
+}
+section p 
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    color: #6c757d;
+}
+.Hover:hover
+{
+    transition: transform 0.3s;
+}
+.Hover:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 18px #6c757d;
+}
+.Hover:hover h2
+{
+    color: #0d6efd;
+}
+.btn-mary
+{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    color: #6c757d;
+    border-color: #6c757d;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+}
+.btn-mary:hover
+{
+    background-color: #fff;
+    color:#0d6efd;
+    border-color: #0d6efd;
+}
+.navbar-mary
+{
+    background-color: #023b6d;
+}
+i
+{
+    color: #0d6efd;
+}
